@@ -145,10 +145,14 @@ body {
 @media screen and (max-width: 767.98px) {
     :root {
         --card-column: 4;
+        --card-width: 366px !important;
         
     }
     h1{
       font-size: 15px !important;
+     }
+     html, body{
+      min-height: 71% !important;
      }
 }
 
@@ -156,9 +160,13 @@ body {
 @media screen and (max-width: 575.98px) {
     :root {
         --card-column: 4;
+        --card-width: 366px !important;
     }
    h1{
     font-size: 15px !important;
+   }
+   html, body{
+    min-height: 71% !important;
    }
 }
 
@@ -205,7 +213,7 @@ body {
    /* Opera 11.10+ */
  
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-  min-height: 100%;
+  min-height: 81%;
 }
 
 .snowflakes {
