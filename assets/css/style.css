@@ -154,6 +154,9 @@ body {
      html, body{
       min-height: 99% !important
      }
+     .font{
+      font-size: 14px !important;
+     }
 }
 
 /* For mobile */
@@ -168,6 +171,9 @@ body {
    }
    html, body{
     min-height: 99% !important
+   }
+   .font{
+    font-size: 14px !important;
    }
 }
 
