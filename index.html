@@ -23,24 +23,23 @@
         </h1>
     </div>
 
-    <div class="snowflakes">
-        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    </div>
-
     <div class="d-flex-center">
         <div class="group__box"></div>
     </div>
-
-    <audio id="christmas-music" autoplay loop muted>
-        <source src="./assets/We Wish You A Merry Christmas - The Queen Dance Studio (mp3cut.net) (1).mp3" type="audio/mp3">
+    
+    <audio id="christmas-music" loop>
+        <source src="./assets/We Wish You A Merry Christmas - The Queen Dance Studio (mp3cut (mp3cut.net).mp3" type="audio/mp3">
     </audio>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var audio = document.getElementById('christmas-music');
-            audio.muted = false;  // Tắt chế độ mute để âm thanh phát
-            audio.play();         // Phát nhạc
+        var audio = document.getElementById('christmas-music');
+        document.addEventListener('touchstart', function (event) {
+            audio.play();
         });
+        document.addEventListener('click', function (event1) {
+            audio.play();
+        });
+
     </script>
 
     <!-- jQuery -->
