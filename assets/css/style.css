@@ -1,5 +1,5 @@
 :root {
-  --blue: #0096FF;
+  --blue: #FFFFFF;
   --green: #3FA796;
   --white: #FFFFFF;
   --card-column: 6;
@@ -79,7 +79,7 @@ body {
     height: var(--card-height);
     padding: 16px;
     margin: 8px;
-    border: 2px solid var(--blue);
+    border: 1px solid var(--blue);
     /* border-radius: 16px; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
