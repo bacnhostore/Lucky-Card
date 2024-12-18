@@ -2,9 +2,9 @@
   --blue: #0096FF;
   --green: #3FA796;
   --white: #FFFFFF;
-  --card-column: 4;
+  --card-column: 6;
   --card-width: 720px;
-  --card-height: calc(var(--card-width) / var(--card-column) * 1.3);
+  --card-height: calc(var(--card-width) / var(--card-column) * 1.6);
   --background-main: url("../img/background-main.jpg");
   --background-card-back: url("../img/card-img.png");
 }
@@ -144,9 +144,9 @@ body {
 /* For tablet */
 @media screen and (max-width: 767.98px) {
     :root {
-        --card-column: 4;
-        --card-width: 366px !important;
-        
+      --card-column: 4 !important;
+      --card-width: 366px !important;
+        --card-height: calc(var(--card-width) / var(--card-column) * 1.3) !important;
     }
     h1{
       font-size: 15px !important;
@@ -159,8 +159,9 @@ body {
 /* For mobile */
 @media screen and (max-width: 575.98px) {
     :root {
-        --card-column: 4;
+        --card-column: 4 !important;
         --card-width: 366px !important;
+        --card-height: calc(var(--card-width) / var(--card-column) * 1.3) !important;
     }
    h1{
     font-size: 15px !important;
